@@ -1,0 +1,75 @@
+.projects {
+  position: relative;
+  color: white;
+  margin-top: 25vh;
+  padding: 10%;
+}
+
+.projectDescription {
+  display: flex;
+  height: 700px;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.imageContainer {
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+
+.imageContainer img {
+  object-fit: cover;
+}
+
+.column {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  font-size: 1.6vw;
+}
+
+.column:last-of-type {
+  align-items: flex-end;
+  font-size: 1vw;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 200px;
+}
+
+.projectEl {
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 3vw;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: flex-end;
+}
+.projectEl h2 {
+  margin: 0px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.modal {
+  position: fixed;
+  overflow-x: hidden !important;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: 'red';
+  visibility: hidden;
+  opacity: 0;
+  z-index: 8;
+  min-height: 100vh;
+  height: 100%;
+}
