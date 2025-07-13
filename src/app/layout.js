@@ -14,10 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <Link href="/test">test</Link>
-          <Link href="/">home</Link>
-        </nav>
+        <nav></nav>
         <TransitionProvider>{children}</TransitionProvider>
       </body>
     </html>
